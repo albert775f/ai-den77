@@ -1,0 +1,41 @@
+<svg width="128" height="128" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="primary" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#667eea;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#764ba2;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f093fb;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f5576c;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="highlight" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4facfe;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#00f2fe;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Main background -->
+  <rect width="128" height="128" rx="24" fill="url(#primary)" />
+  
+  <!-- Geometric shapes for modern look -->
+  <circle cx="32" cy="32" r="16" fill="url(#accent)" opacity="0.8" />
+  <circle cx="96" cy="96" r="12" fill="url(#highlight)" opacity="0.6" />
+  
+  <!-- Central play button with modern styling -->
+  <circle cx="64" cy="64" r="28" fill="rgba(255,255,255,0.1)" stroke="rgba(255,255,255,0.3)" stroke-width="2" />
+  <path d="M56 48 L56 80 L80 64 Z" fill="white" />
+  
+  <!-- Decorative elements -->
+  <rect x="20" y="100" width="20" height="4" rx="2" fill="rgba(255,255,255,0.4)" />
+  <rect x="88" y="24" width="16" height="4" rx="2" fill="rgba(255,255,255,0.4)" />
+  <circle cx="24" cy="80" r="3" fill="rgba(255,255,255,0.5)" />
+  <circle cx="104" cy="48" r="2" fill="rgba(255,255,255,0.5)" />
+  
+  <!-- Subtle grid pattern -->
+  <defs>
+    <pattern id="grid" width="8" height="8" patternUnits="userSpaceOnUse">
+      <path d="M 8 0 L 0 0 0 8" fill="none" stroke="rgba(255,255,255,0.1)" stroke-width="0.5"/>
+    </pattern>
+  </defs>
+  <rect width="128" height="128" fill="url(#grid)" opacity="0.3" />
+</svg>

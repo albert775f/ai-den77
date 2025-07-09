@@ -1,0 +1,92 @@
+Warning: A component is changing an uncontrolled input to be controlled. This is likely caused by the value changing from undefined to a defined value, which should not happen. Decide between using a controlled or uncontrolled input element for the lifetime of the component. More info: https://reactjs.org/link/controlled-components
+    at input
+    at _c (https://e5727dfe-c320-4faf-b806-806228756ae7-00-1esaytim07f8n.picard.replit.dev/src/components/ui/input.tsx:20:11)
+    at https://e5727dfe-c320-4faf-b806-806228756ae7-00-1esaytim07f8n.picard.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-2K77HOHX.js?v=9a201776:79:13
+    at https://e5727dfe-c320-4faf-b806-806228756ae7-00-1esaytim07f8n.picard.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-2K77HOHX.js?v=9a201776:56:13
+    at https://e5727dfe-c320-4faf-b806-806228756ae7-00-1esaytim07f8n.picard.replit.dev/src/components/ui/form.tsx:129:9
+    at div
+    at https://e5727dfe-c320-4faf-b806-806228756ae7-00-1esaytim07f8n.picard.replit.dev/src/components/ui/form.tsx:71:6
+    at Controller (https://e5727dfe-c320-4faf-b806-806228756ae7-00-1esaytim07f8n.picard.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-4BFJKWC4.js?v=9a201776:298:35)
+    at FormField (https://e5727dfe-c320-4faf-b806-806228756ae7-00-1esaytim07f8n.picard.replit.dev/src/components/ui/form.tsx:32:6)
+    at form
+    at FormProvider (https://e5727dfe-c320-4faf-b806-806228756ae7-00-1esaytim07f8n.picard.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-4BFJKWC4.js?v=9a201776:102:11)
+    at div
+    at https://e5727dfe-c320-4faf-b806-806228756ae7-00-1esaytim07f8n.picard.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-AXMZZQ2X.js?v=9a201776:42:13
+    at https://e5727dfe-c320-4faf-b806-806228756ae7-00-1esaytim07f8n.picard.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-C7SZJ2M3.js?v=9a201776:61:7
+    at https://e5727dfe-c320-4faf-b806-806228756ae7-00-1esaytim07f8n.picard.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-2K77HOHX.js?v=9a201776:79:13
+    at https://e5727dfe-c320-4faf-b806-806228756ae7-00-1esaytim07f8n.picard.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-2K77HOHX.js?v=9a201776:56:13
+    at https://e5727dfe-c320-4faf-b806-806228756ae7-00-1esaytim07f8n.picard.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-AXMZZQ2X.js?v=9a201776:42:13
+    at https://e5727dfe-c320-4faf-b806-806228756ae7-00-1esaytim07f8n.picard.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-DUCXC5SA.js?v=9a201776:29:5
+    at https://e5727dfe-c320-4faf-b806-806228756ae7-00-1esaytim07f8n.picard.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/@radix-ui_react-dialog.js?v=9a201776:236:13
+    at https://e5727dfe-c320-4faf-b806-806228756ae7-00-1esaytim07f8n.picard.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/@radix-ui_react-dialog.js?v=9a201776:159:58
+    at Presence (https://e5727dfe-c320-4faf-b806-806228756ae7-00-1esaytim07f8n.picard.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-E4UC4BFD.js?v=9a201776:24:11)
+    at https://e5727dfe-c320-4faf-b806-806228756ae7-00-1esaytim07f8n.picard.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/@radix-ui_react-dialog.js?v=9a201776:150:64
+    at https://e5727dfe-c320-4faf-b806-806228756ae7-00-1esaytim07f8n.picard.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-2K77HOHX.js?v=9a201776:79:13
+    at https://e5727dfe-c320-4faf-b806-806228756ae7-00-1esaytim07f8n.picard.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-2K77HOHX.js?v=9a201776:56:13
+    at https://e5727dfe-c320-4faf-b806-806228756ae7-00-1esaytim07f8n.picard.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-AXMZZQ2X.js?v=9a201776:42:13
+    at https://e5727dfe-c320-4faf-b806-806228756ae7-00-1esaytim07f8n.picard.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-C7SZJ2M3.js?v=9a201776:260:22
+    at Presence (https://e5727dfe-c320-4faf-b806-806228756ae7-00-1esaytim07f8n.picard.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-E4UC4BFD.js?v=9a201776:24:11)
+    at Provider (https://e5727dfe-c320-4faf-b806-806228756ae7-00-1esaytim07f8n.picard.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-OXZDJRWN.js?v=9a201776:38:15)
+    at DialogPortal (https://e5727dfe-c320-4faf-b806-806228756ae7-00-1esaytim07f8n.picard.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/@radix-ui_react-dialog.js?v=9a201776:112:11)
+    at _c3 (https://e5727dfe-c320-4faf-b806-806228756ae7-00-1esaytim07f8n.picard.replit.dev/src/components/ui/dialog.tsx:52:12)
+    at Provider (https://e5727dfe-c320-4faf-b806-806228756ae7-00-1esaytim07f8n.picard.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-OXZDJRWN.js?v=9a201776:38:15)
+    at Dialog…
+Submitting template data: 
+Object {title: "asda", description: "asdasd", priority: "medium", order: 0}
+Template data with groupId: 
+Object {title: "asda", description: "asdasd", priority: "medium", order: 0, groupId: 4}
+Making template API request with data: 
+Object {title: "asda", description: "asdasd", priority: "medium", order: 0, groupId: 4}
+Template creation error: 
+Error {}
+
+Team Hub
+Dashboard
+Projects
+Schedule
+To-Dos
+Pinboard
+MixMerge
+albert ar
+
+Sign Out
+Back to Projects
+jazzcore
+Music • active
+
+Search projects...
+
+Subscribers
+3
+Total Views
+120
+Videos
+4
+active
+View Channel
+Sync YouTube
+Upload Schedule
+Description Templates
+Todo Templates
+Team Members
+Todo Template Groups
+Create Group
+
+zujik
+0 templates
+Add Template
+
+Add Template to zujik
+Create a new todo template within this group that can be assigned to team members.
+
+Template Title
+asda
+Description
+asdasd
+Priority
+Medium
+Estimated Minutes
+2
+Add Template
+Cancel
+Close

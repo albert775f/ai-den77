@@ -1,0 +1,73 @@
+[vite] hot updated: /src/index.css?v=c2bl1tE51Myg7UCLClHz0
+[vite] hot updated: /src/components/projects/todo-template-groups.tsx
+[vite] hot updated: /src/index.css?v=c2bl1tE51Myg7UCLClHz0
+[vite] hot updated: /src/components/projects/todo-template-groups.tsx
+[vite] hot updated: /src/index.css?v=c2bl1tE51Myg7UCLClHz0
+Create Group button clicked
+Form state: 
+Object {defaultValues: {…}}
+Form values: 
+Object {name: "dfrg", description: ""}
+Submitting group data: 
+Object {name: "dfrg", description: ""}
+Making API request with data: 
+Object {name: "dfrg", description: ""}
+Group creation error: 
+TypeError {message: "Failed to execute 'fetch' on 'Window': '/api/projects/29/todo-template-groups' is not a valid HTTP…"}
+
+Failed to execute 'fetch' on 'Window': '/api/projects/29/todo-template-groups' is not a valid HTTP method.
+Team Hub
+Dashboard
+Projects
+Schedule
+To-Dos
+Pinboard
+MixMerge
+albert ar
+
+Sign Out
+Back to Projects
+housecore
+Music • active
+
+Search projects...
+
+Subscribers
+2
+Total Views
+89
+Videos
+3
+active
+View Channel
+Sync YouTube
+Upload Schedule
+Description Templates
+Todo Templates
+Team Members
+Todo Template Groups
+Create Group
+No template groups found. Create your first group to get started.
+Create Template Group
+Create a new group to organize related todo templates that can be assigned together.
+
+Group Name
+dfrg
+Description
+Brief description of this group's purpose
+Create Group
+Cancel
+Close
+[plugin:runtime-error-plugin] Failed to execute 'fetch' on 'Window': '/api/projects/29/todo-template-groups' is not a valid HTTP method.
+/home/runner/workspace/client/src/lib/queryClient.ts:15:21
+13 |    data?: unknown | undefined,
+14 |  ): Promise<Response> {
+15 |    const res = await fetch(url, {
+   |                      ^
+16 |      method,
+17 |      headers: data ? { "Content-Type": "application/json" } : {},
+
+    at apiRequest /home/runner/workspace/client/src/lib/queryClient.ts:15:21
+    at Object.mutationFn /home/runner/workspace/client/src/components/projects/todo-template-groups.tsx:87:28
+Click outside, press Esc key, or fix the code to dismiss.
+You can also disable this overlay by setting server.hmr.overlay to false in vite.config.js.
